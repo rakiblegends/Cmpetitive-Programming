@@ -20,7 +20,7 @@ int main(){
         cin>>u>>v;
         adj[u].push_back(v);
         adj[v].push_back(u);//Undirected
-        //for weighted graph.
+        //for weighted graph uncomment below code.
         //cin>>u>>v>>w;
         //adj[u].pb({v,w});
         //adj[v].pb({u,w});
