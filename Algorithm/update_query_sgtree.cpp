@@ -51,7 +51,7 @@ void build(v64 &a, ll v,ll tl,ll tr){
 
 ll query(ll v,ll tl,ll tr,ll l,ll r){
     if (l > r) 
-        return 0;
+        return 0; //Return 0 for sum, inf for min, -inf for max, 0 for gcd.
     if (l == tl && r == tr) {
         return sg[v];
     }
