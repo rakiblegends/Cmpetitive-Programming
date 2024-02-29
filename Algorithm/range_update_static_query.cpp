@@ -30,7 +30,10 @@ ll dc[] = {0,0,1,-1};
 #define fast_cin() ios_base::sync_with_stdio(false); cin.tie(NULL); cout.tie(NULL)
 #define all(x) (x).begin(), (x).end()
 #define ordered_set tree<ll, null_type,less<ll>, rb_tree_tag,tree_order_statistics_node_update>
- 
+
+// Range Update Static Query.
+
+
 ll sum(ll a, ll b){
     return a+b;
 }
